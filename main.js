@@ -6,15 +6,15 @@ const navigateTo = (url) => {
 const router = async () => {
   const routes = [
     {
-      path: "/vite-project/",
+      path: "/",
       view: () => console.log("This is home page /"),
     },
     {
-      path: "/vite-project/about",
+      path: "/about",
       view: () => console.log("This is About page /about"),
     },
     {
-      path: "/vite-project/contact",
+      path: "/contact",
       view: () => console.log("This is Contact /contact"),
     },
   ];
