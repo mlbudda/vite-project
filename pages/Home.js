@@ -5,10 +5,4 @@ export default class extends AbstractView {
     super();
     this.setTitle("Home");
   }
-
-  async getHtml() {
-    return `
-        <h1>Home page</>
-        `;
-  }
 }

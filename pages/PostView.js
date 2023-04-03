@@ -7,9 +7,12 @@ export default class extends AbstractView {
   }
 
   async getHtml() {
+    const item = this.data.find(
+      (item) => Number.parseInt(item.id, 10) === Number.parseInt(this.id, 10)
+    );
     return `
-        <h1>Post view</>
-        <p> You are viewing ${this.id} post </p>
+        <h1>${item.position}</>
+        <p>${item.description}</p>
         `;
   }
 }
