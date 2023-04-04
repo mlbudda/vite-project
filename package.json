@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "lit": "^2.7.1",
     "vite": "^4.2.0"
   }
 }

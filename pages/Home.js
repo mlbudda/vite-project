@@ -5,4 +5,10 @@ export default class extends AbstractView {
     super();
     this.setTitle("Home");
   }
+
+  getHtml() {
+    return `
+    <counter-button></counter-button>
+    `;
+  }
 }
